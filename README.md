@@ -31,3 +31,9 @@ Los valores enteros se comparan como números y los demás como texto. Los dicci
 Calcula la potencia n-ésima de cada elemento de una lista de enteros. Primero se ingresa la lista, con los números separados por espacios o comas (también se aceptan corchetes, como `[1, 2, 3]`), y después el valor de n, que debe ser un entero positivo. Si alguno de los datos no es válido, el programa lo vuelve a pedir.
 
 Con Enter se usan la lista `[1, 2, ..., 10]` y `n = 3` del enunciado. Se trabaja con `Integer`, por lo que no hay desbordamiento con potencias grandes.
+
+## Ejercicio 3
+
+Calcula la transpuesta de una matriz representada como lista de listas. La matriz se ingresa fila por fila, con los números separados por espacios o comas, y una línea vacía termina el ingreso. Todas las filas deben tener la misma cantidad de elementos que la primera; si no es así, la fila se rechaza y se vuelve a pedir.
+
+Si no se ingresa ninguna fila se usa la matriz `X` del enunciado. El programa muestra la matriz original `X` y su transpuesta `Y`.
