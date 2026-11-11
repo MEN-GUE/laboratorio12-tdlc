@@ -25,3 +25,9 @@ Ordena una lista de diccionarios según una llave. Cada diccionario se ingresa e
 Una línea vacía termina el ingreso. Luego el programa pide la llave por la cual ordenar (por ejemplo `model`) y muestra la lista ordenada. Se puede ordenar por varias llaves seguidas hasta dejar la línea vacía. Si la llave no existe en ningún diccionario se muestra un aviso.
 
 Los valores enteros se comparan como números y los demás como texto. Los diccionarios que no tienen la llave indicada quedan al inicio.
+
+## Ejercicio 2
+
+Calcula la potencia n-ésima de cada elemento de una lista de enteros. Primero se ingresa la lista, con los números separados por espacios o comas (también se aceptan corchetes, como `[1, 2, 3]`), y después el valor de n, que debe ser un entero positivo. Si alguno de los datos no es válido, el programa lo vuelve a pedir.
+
+Con Enter se usan la lista `[1, 2, ..., 10]` y `n = 3` del enunciado. Se trabaja con `Integer`, por lo que no hay desbordamiento con potencias grandes.
